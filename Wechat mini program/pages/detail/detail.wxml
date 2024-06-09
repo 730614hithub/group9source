@@ -1,0 +1,13 @@
+
+<image src="{{imgUrl}}"mode="aspectFill"bindtap="changeAvatar"></image>
+<view class="container">  
+  <view class="info-item">  
+    <text class="info-label">Name:</text>  
+    <text class="info-value">{{username}}</text>  
+  </view>  
+  <view class="info-item">  
+    <text class="info-label">Sex:</text>  
+    <text class="info-value">{{gender}}</text>  
+  </view>  
+  <button class="primary-button" bindtap="jump" type="primary">Modify Data</button>  
+</view>

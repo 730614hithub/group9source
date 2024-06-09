@@ -1,0 +1,60 @@
+<!--index.wxml-->
+
+
+<view class="data-container">
+    <view class="data-card">
+        <view class="data-card_content">
+            <image class="data-card_icon" src="/static/tem.png"/>
+            <view class="data-card_info">
+                <view class="data-card_title">
+                    temp
+                </view>
+                <view class="data-card_value">
+                  {{temperature}}℃
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="data-card">
+        <view class="data-card_content">
+            <image class="data-card_icon" src="/static/hum.png"/>
+            <view class="data-card_info">
+                <view class="data-card_title">
+                    hum
+                </view>
+                <view class="data-card_value">
+                  {{humidity}}℃
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="data-card">
+        <view class="data-card_content">
+            <image class="data-card_icon" src="/static/led.png"/>
+            <view class="data-card_info">
+                <view class="data-card_title">
+                    light
+                </view>
+                <view class="data-card_value">
+                  <switch checked="ture" bindchange="Things1CMD" color="#1673fe"></switch>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="data-card">
+        <view class="data-card_content">
+            <image class="data-card_icon" src="/static/alarm.png"/>
+            <view class="data-card_info">
+                <view class="data-card_title">
+                    alarm
+                </view>
+                <view class="data-card_value">
+                  <switch checked=""bindchange=""color="#3d7ef9"/>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+
+<image src="../../static"mode="aspectFill"bindtap="changeImage"></image>

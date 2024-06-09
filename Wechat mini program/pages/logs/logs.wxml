@@ -1,0 +1,27 @@
+<!--logs.wxml-->
+<view class="data" bindtap="info">  
+  <image class="circle-image" src="../../static/微信图片_20240421112545.jpg"></image>  
+</view>
+<view class="page-container">
+    <view class="header">
+        <view class="header-air">
+            <view>
+              空气质量-好
+            </view>
+            <view>
+              河北省-秦皇岛市
+            </view>
+        </view>
+        <view class="header-title">
+            <view>
+                {{weatherData.temperature}}℃
+            </view>
+            <view>
+                {{weatherData.weather}}天
+            </view>
+        </view>
+        <view class="header-ad">
+            今天天气真好
+        </view>
+    </view>
+</view>

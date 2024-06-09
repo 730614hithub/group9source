@@ -1,0 +1,50 @@
+/** index.wxss **/
+
+.data-container {
+  background-color: #fff;
+  margin-top: -20rpx;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 36rpx;
+  padding: 40rpx 36rpx;
+
+}
+
+.data-container .data-card {
+  background-color: #fff; 
+  height: 160rpx;
+  box-shadow: #d6d6d6 0 0 8rpx;
+  border-radius: 36rpx;
+  justify-content: space-between;
+  display: flex;
+  
+  
+  }
+
+  
+  .data-container .data-card .data-card_icon {
+    height: 72rpx;
+    width: 72rpx;
+   
+  }
+  
+  .data-container .data-card .data-card_value {
+    font-size: 38rpx;
+    font-weight: bold;
+  }
+  
+  .data-card_content {
+    display: flex; 
+    align-items: center; 
+  }
+  
+
+  .data-card_icon {
+    
+    margin-right: 30px; 
+  }
+  
+  .data-card_info {
+    
+    margin-left: -10px; 
+  }

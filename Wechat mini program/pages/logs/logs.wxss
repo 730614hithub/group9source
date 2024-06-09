@@ -1,0 +1,41 @@
+
+.data {  
+  width: 300rpx;  
+  height: 300rpx;  
+  position: relative; 
+}  
+  
+.circle-image {  
+  width: 150rpx;  
+  height: 150rpx;  
+  border-radius: 50%;  
+  object-fit: cover;  
+  margin-left: 285rpx; 
+  position: absolute; 
+  top: 50%; 
+  transform: translateY(-50%); 
+}
+.header {
+  background-color: #3674e9;
+  color: #fff;
+  border-radius: 40rpx;
+  padding: 40rpx 36rpx;
+}
+.header .header-air {
+  display: flex;
+  justify-content: space-between;
+  font-size: 28rpx;
+}
+
+.header .header-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 48rpx; 
+}
+
+.header .header-ad {
+  margin-top: 36rpx;
+  font-size: 24rpx;
+}
+
+
